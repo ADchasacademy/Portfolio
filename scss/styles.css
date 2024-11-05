@@ -1,37 +1,3 @@
-/*$primary-color: #844dd6;
-$second-color: #ffcd00;
-$text-color: #151515;
-$body-color: #fffbf4;
-$text: 1rem;
-$section-backgroundcolor: rgba(252, 219, 162, 0.3);
-
-@mixin text-styles {
-  color: $text-color;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-
-@mixin button {
-  background-color: $primary-color;
-  color: $body-color;
-  font-weight: 800;
-  border-radius: 16px;
-
-  padding: 14px 24px;
-  text-align: center;
-}
-
-@mixin background-gradient {
-  background: linear-gradient(
-    271.15deg,
-    #c38c20 0.99%,
-    rgba(191, 137, 26, 0.8) 12.75%,
-    #f5c972 49.51%,
-    #f9cc79 85.29%,
-    #f8cf7f 99.01%
-  );
-}
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
@@ -388,6 +354,7 @@ header .nav-list a:hover {
 
 #horizontal-scrolling-text {
   white-space: nowrap;
+  overflow: hidden;
 }
 
 #contact-me-container {
@@ -533,6 +500,7 @@ footer #contact-me-container #horizontal-scrolling-text {
   font-style: italic;
   color: #fafafa;
   text-transform: uppercase;
+  overflow: hidden;
 }
 footer .primary-color {
   color: #844dd6;

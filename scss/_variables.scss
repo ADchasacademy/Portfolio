@@ -1,37 +1,4 @@
-/*$primary-color: #844dd6;
-$second-color: #ffcd00;
-$text-color: #151515;
-$body-color: #fffbf4;
-$text: 1rem;
-$section-backgroundcolor: rgba(252, 219, 162, 0.3);
 
-@mixin text-styles {
-  color: $text-color;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-
-@mixin button {
-  background-color: $primary-color;
-  color: $body-color;
-  font-weight: 800;
-  border-radius: 16px;
-
-  padding: 14px 24px;
-  text-align: center;
-}
-
-@mixin background-gradient {
-  background: linear-gradient(
-    271.15deg,
-    #c38c20 0.99%,
-    rgba(191, 137, 26, 0.8) 12.75%,
-    #f5c972 49.51%,
-    #f9cc79 85.29%,
-    #f8cf7f 99.01%
-  );
-}
-*/
 $background: linear-gradient(to left, #f8cf7f, #c38c20);
 
 $primary-color: #844dd6;

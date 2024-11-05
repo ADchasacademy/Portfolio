@@ -306,6 +306,7 @@ header {
 
 #horizontal-scrolling-text {
   white-space: nowrap;
+  overflow: hidden;
 }
 
 #contact-me-container {
@@ -432,6 +433,7 @@ footer {
       font-style: italic;
       color: $background-body;
       text-transform: uppercase;
+      overflow: hidden;
     }
   }
 
